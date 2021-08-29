@@ -6,10 +6,11 @@ Steps to run this application:
 2.git clone <url of this repo>
 3.open sprexp folder in eclipse of version 11 or higher
 4.change your oracle password from database.properties file which you can find in src/main/resources which is required for oracle databse connection.
+  (you can change database setting in database.properties file) installed any sql/mysql database if  not present on your system .
 5.maven update ...which is required to installed all dependencies ..if its not worked the try to cut content of  pom.xml file then save file then paste again it will intalled 
 dependecies then do maven update
 6.run as maven clean
-7.run se maven install
+7.run as maven install
 8.run on server .. tomcat server ideally is 8.5v .. higher if not in present in your system 
 download 8.5 tomcat server then link to your project.
 
